@@ -6,7 +6,7 @@ function novoElemento(tagName, className) {
 }
 
 function Barreira(reversa = false) {
-    this.elemento = novoElemento('div', 'barreira')
+    this.elemento = novoElemento('div', 'barreira') 
 
     const borda = novoElemento('div', 'borda')
     const corpo = novoElemento('div', 'corpo')
